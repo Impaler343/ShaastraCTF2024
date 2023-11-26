@@ -14,7 +14,7 @@ Clue : You have heard of base 2 , 8 ,10 , 16... how far do you think we jumped ?
 
 ## Q3
 Name : Deep Dive Discovery <br />
-Logic: A .jpg file will have a .zip file when extracted will have another .zip file, and this will go on 1000 times, and the last folder will have the flag.txt file
+Logic: A .jpg file will have a .zip file when extracted will have another .zip file, and this will go on 1000 times, and the last folder will have the flag.txt file <br />
 Difficulty: 7 <br />
 Clue: Images have X and Y axes. Does this file have a Z-axis too? <br />
 
