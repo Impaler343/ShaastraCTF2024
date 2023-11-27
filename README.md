@@ -18,3 +18,15 @@ Logic: A .jpg file will have a .zip file when extracted will have another .zip f
 Difficulty: 7 <br />
 Clue: Images have X and Y axes. Does this file have a Z-axis too? <br />
 
+## Q4
+Name : 
+Logic :  We will give a code which has a recursive algorithm , which is significantly complex (can not write an equivalent 'for' loop based algorithm) , but not too hard. Running the code will crash due to memory limit . Also the algorithm takes so many recursion cycles because the number we are operating on will exceed integer limit many times and sign overflow will happen  , multiple times , before it reaches the target value. Once it reaches target value , number of iterations taken to get there will be the hex code of the answer . So people need to figure out how to solve for the number of iterations using some logic and mathematical exploits.
+Difficulty : 7
+Clue: 
+
+## Q5
+Name : Maze Runner
+Logic : You are thrown inside a labyrinth of recursively linked directories , users need to navigate through it to find the text file with the flag. Each file will contain folders names a , c , f , h , r, s, t , and right answer will come from going to the file by following the order s-> h -> a -> a -> s -> t -> r -> a . We will let them know that shortest path is 7 directories 
+Difficulty : 5
+Clue : We will tell them to use rm -r on some files at the highest level which will simplify the challenge
+
