@@ -30,3 +30,9 @@ Logic : You are thrown inside a labyrinth of recursively linked directories , us
 Difficulty : 5
 Clue : We will tell them to use rm -r on some files at the highest level which will simplify the challenge
 
+## Q6
+Name : Corporate Trails <br />
+Logic : We provide a URL of an article and tell the person to find the flag hinting at the author's workplace https://aniketanand.wordpress.com/2009/11/26/third-elephant-in-iit-madras/ <br />
+Difficulty : 6 <br />
+Clue : Where does this person work? <br />
+
