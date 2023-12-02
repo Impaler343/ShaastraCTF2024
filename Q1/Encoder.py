@@ -1,6 +1,4 @@
 s = 'cvpbPGSarkg_gvzr_Vyy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ'
-s = 'qhcoCTF'
-k = 'picoCTF'
 z = 'shaastraCTF'
 c1 = 'abcdefghijklmnopqrstuvwxyz'
 c2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -18,9 +16,7 @@ def rot(a,n):
     if(a in c2):
         return c2[(c2.index(a)+n)%26] 
 
-for i in range(len(s)):
-    print(ord(s[i])-ord(k[i]))
-    c *= -1
+
 def simple_encode(s):
     x = s[0]
     for i in range(len(s)-1):
@@ -29,5 +25,9 @@ def simple_encode(s):
     return x
 f = simple_encode(z)
 print(f)
+# What they are supposed to print out to see the pattern
 for i in range(len(f)):
-    print(n(z[i]),ord(f[i])-ord(z[i]))
+    try:
+        print(n(z[i]),ord(f[i])-ord(z[i]))
+    except:
+        print(" ",ord(f[i])-64)
