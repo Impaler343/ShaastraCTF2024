@@ -1,4 +1,4 @@
-s = 'cvpbPGSarkg_gvzr_Vyy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ'
+# change z , to the string to be encoded
 z = 'shaastraCTF'
 c1 = 'abcdefghijklmnopqrstuvwxyz'
 c2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -24,7 +24,10 @@ def simple_encode(s):
     x += s[-1]
     return x
 f = simple_encode(z)
+print('Encoded String: ')
 print(f)
+print()
+print('Observation to be made')
 # What they are supposed to print out to see the pattern
 for i in range(len(f)):
     try:
