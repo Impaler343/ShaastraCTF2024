@@ -38,11 +38,7 @@ Clue : We will tell them to use rm -r on some files at the highest level which w
 
 ## Q6
 Name : Corporate Trails <br />
-<<<<<<< HEAD
-Logic : We provide a URL of an article and tell the person to find the flag hinting at the author's workplace <br />
-=======
-Logic : We provide an image and tell the person to find the flag hinting at the author's workplace https://aniketanand.wordpress.com/2009/11/26/third-elephant-in-iit-madras/ <br />
->>>>>>> 86b21be21ecbc9ddf2e61f0fd824e01f0826fc9d
+Logic : We provide an image and tell the person to find the flag hinting at the author's workplace <br />
 Difficulty : 5 <br />
 Clue : Where does this person work? <br />
 
