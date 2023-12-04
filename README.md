@@ -48,3 +48,10 @@ Name : Acropolis <br />
 Logic : We provide an image of the Acropolis and say - "Shattering the location of this image gives you the answer, Quickly. Submit it like this - 6f79e83ebf4321cad0f70cf9664e4540dbb89e33bce5abc70574589a". We need to scramble the letters in the word "Athens" and submit it in SHA224 hashed format<br />
 Difficulty : 6 <br />
 Clue : Unscramble and Hash <br />
+
+
+## Q8
+Name : Decoding Digits <br />
+Logic : We provide the executable of the file and ask them to crack the 10 digit code and submit as ShaastraCTF{...}. It does not give out a correct answer output even for the correct answer, we must find the answer by observing which input takes the longest to run. <br />
+Difficulty : 7 <br />
+Clue : Runtime proportional to Correct solution? <br />
