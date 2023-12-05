@@ -1,5 +1,5 @@
-# ShaastraCTF2023
-CTF Questions Shaastra 2023
+# ShaastraCTF2024
+CTF Questions for Shaastra 2024
 
 ## Q1
 Name : Simply Encoded <br />
