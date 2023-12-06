@@ -2,7 +2,8 @@
 CTF Questions for Shaastra 2024
 
 ## Q1
-Name : Simply Encoded <br />
+Name : Simply Encoded  
+
 Logic : convolutional encoding , of order 1 . I.e we shift the string by 1 unit and then sum it up with the original string to generate an encoding with 1 more letter than the original. <br />
 Difficulty : 6 <br />
 Clue : Have you heard of convolution ? <br />
