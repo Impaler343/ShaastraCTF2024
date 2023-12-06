@@ -1,5 +1,5 @@
-# ShaastraCTF2023
-CTF Questions Shaastra 2023
+# ShaastraCTF2024
+CTF Questions for Shaastra 2024
 
 ## Q1
 Name : Simply Encoded <br />
@@ -55,7 +55,6 @@ Name : Decoding Digits <br />
 Logic : We provide the executable of the file and ask them to crack the 10 digit code and submit as ShaastraCTF{...}. It does not give out a correct answer output even for the correct answer, we must find the answer by observing which input takes the longest to run. <br />
 Difficulty : 7 <br />
 Clue : Runtime proportional to Correct solution? <br />
-
 
 
 ## Q9
