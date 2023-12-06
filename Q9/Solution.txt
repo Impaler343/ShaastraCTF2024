@@ -1,0 +1,5 @@
+Go to the file comments to retrieve the SSL Key.
+Add the SSL key to a text file on the system.
+Use this file in the Wireshark SSL preferences, to decrypt TSL traffic.
+Go to the packet which contains the SSL handshake.
+Right click on the packet and select "Decode As" --> "base64" and view as "raw".

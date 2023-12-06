@@ -55,3 +55,11 @@ Name : Decoding Digits <br />
 Logic : We provide the executable of the file and ask them to crack the 10 digit code and submit as ShaastraCTF{...}. It does not give out a correct answer output even for the correct answer, we must find the answer by observing which input takes the longest to run. <br />
 Difficulty : 7 <br />
 Clue : Runtime proportional to Correct solution? <br />
+
+
+
+## Q9
+Name : SSL Buster <br />
+Logic : We provide a .pcapng file of a MySQL Server-Client interaction, we ask them to print out the base64 encoded raw dump of the TLS-decrypted SSL certificate, in the format ShaastraCTF{...}. SSL key is in the file comments. <br />
+Difficulty : 9 <br />
+Clue : Use the SSL key to decrypt packets through the TSL protocol. <br />
