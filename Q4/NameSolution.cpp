@@ -17,7 +17,7 @@ ll fibbmod(ll n){
 }
 
 int main() {
-    ll n = 29;
+    ll n = 250;
     vector<ll> odd = {2,3},even = {2,3};
     for(ll i = 2;i<=n;i++){
         odd.push_back(even[i-1] - odd[i-2]);
@@ -65,4 +65,4 @@ int main() {
 // 28->3153792
 // 29->3426560
 
-// 1000->
+// 250->4611686018427387904
