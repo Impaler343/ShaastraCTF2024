@@ -18,11 +18,10 @@ def compare_strings(string1, string2):
     print("Nope, Wrong Password?")
 
 
-password1 = "%?^*%$@!:#"
-
+password1 = "%?^*%$" 
 
 do = input("Press 'ok' to start the game:")
 while do == "ok":
-    password2 = input("Enter a 10 digit password consisting of numbers only:")
+    password2 = input("Enter a 6 digit password consisting of numbers only:")
     compare_strings(password1, password2)
     do = input("Press 'ok' to try again!")
