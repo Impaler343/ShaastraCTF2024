@@ -24,7 +24,7 @@ Clue: Images have X and Y axes. Does this file have a Z-axis too? <br />
 
 ## Q4
 Name : Name(A Recursion Reference) <br />
-Logic: A recursive algorithm is written which does not function like normal recursive functions. Long story short, an equivalent iterative loop must be figured out and used to generate fibbmod(1000) <br />
+Logic: A recursive algorithm is written which does not function like normal recursive functions. Long story short, an equivalent iterative loop must be figured out and used to generate fibbmod(250) <br />
 Difficulty : 9 <br />
 Clue: Every recursive function has an equivalent iterative form <br />
 
