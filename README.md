@@ -31,7 +31,7 @@ Clue: Every recursive function has an equivalent iterative form <br />
 
 ## Q5
 Name: Maze Runner
-Logic: You are thrown inside a labyrinth of recursively linked directories , users need to navigate through it to find the text file with the flag. Each file will contain folders names a , c , f , h , r, s, t , and right answer will come from going to the file by following the order s-> h -> a -> a -> s -> t -> r -> a . We will let them know that shortest path is 7 directories 
+Logic: You are thrown inside a labyrinth of recursively linked directories, users need to navigate through it to find the text file with the flag. Each file will contain folders names a , c , f , h , r, s, t , and right answer will come from going to the file by following the order s-> h -> a -> a -> s -> t -> r -> a . We will let them know that shortest path is 7 directories 
 Difficulty: 5
 Clue: We will tell them to use rm -r on some files at the highest level which will simplify the challenge
 
@@ -52,14 +52,21 @@ Clue: Unscramble and Hash <br />
 
 ## Q8
 Name: Decoding Digits <br />
-Logic: We provide the executable of the file and ask them to crack the 10 digit code and submit it as ShaastraCTF{...}. It does not give out a correct answer output even for the correct answer, we must find the answer by observing which input takes the longest to run. <br />
+Logic: We provide the executable of the file and ask them to crack the 6-digit code and submit it as ShaastraCTF{...}. It does not give out a correct answer output even for the correct answer, we must find the answer by observing which input takes the longest to run. <br />
 Difficulty : 7 <br />
 Clue: Is Runtime proportional to the Correct solution? <br />
 
 
 ## Q9
 Name: SSL Buster <br />
-Logic: We provide a .pcapng file of a MySQL Server-Client interaction, and we ask them to print out the base64 encoded raw dump of the TLS-decrypted SSL certificate, in the format ShaastraCTF{...}. SSL key is in the file comments. <br />
+Logic: We provide a .pcapng file of a MySQL Server-Client interaction, and we ask them to print out the base64 encoded raw dump of the TLS-decrypted SSL certificate, in the format ShaastraCTF{...}. The SSL key is in the file comments. <br />
 Difficulty : 9 <br />
 Clue: Use the SSL key to decrypt packets through the TSL protocol. <br />
 
+
+## Q10
+Name: Gottfried and Bob Bemer <br />
+Logic: Gottfried discovered binary. In the question, the repeated use of two instead of to and too also suggests usage of binary format. Replace uppercase letters by 1, lowercase letters by 0. Split at every 8th letter. Convert every 8 bits to decimal and replace these from ASCII values to characters. The flag is obtained from "iAmTWobOreDOffINdiNGfLaGsIwANTTWodOSoMEThINgMoreinTEresTinGWaItDiDyOUSEEtHatTwoNoyOUdIdNoTiJUSTFouNDtHEFlAGnOwiamgOIngTWoThENEXTqUestIOnyOucANalsoGOiFyouWishTWO"
+ <br />
+Difficulty : 6 <br />
+Clue: There are Two Types of leTTers in This senTence <br />
