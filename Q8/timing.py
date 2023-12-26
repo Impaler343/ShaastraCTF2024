@@ -21,7 +21,6 @@ def compare_strings(string1, string2):
 password1 = "%?^*%$" 
 
 do = input("Press 'ok' to start the game:")
-while do == "ok":
+while True:
     password2 = input("Enter a 6 digit password consisting of numbers only:")
     compare_strings(password1, password2)
-    do = input("Press 'ok' to try again!")
