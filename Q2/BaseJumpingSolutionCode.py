@@ -1,7 +1,7 @@
 import base36
 
 # Specify the file path
-file_path = "output_image_with_hidden_text.jpg"
+file_path = "BaseJumping.jpg"
 
 # Read the binary form of the file
 with open(file_path, "rb") as file:

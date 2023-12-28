@@ -1,36 +1,46 @@
-# change z , to the string to be encoded
-z = 'shaastraCTF'
-c1 = 'abcdefghijklmnopqrstuvwxyz'
-c2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+def add(a, b):
+    if a in c1:
+        if b in c1:
+            return (c1.index(a) + c1.index(b) + 2) % 26
+        else:
+            return (c1.index(a) + c2.index(b) + 2) % 26
+    else:
+        if b in c1:
+            return (c2.index(a) + c1.index(b) + 2) % 26
+        else:
+            return (c2.index(a) + c2.index(b) + 2) % 26
 
 
-def n(a):
-    if(a in c1):
-        return ord(a)-96
-    elif(a in c2):
-        return ord(a)-64
-def rot(a,n):
+def diff(a, b):
+    if a in c1:
+        if b in c1:
+            return (c1.index(a) - c1.index(b)) % 26
+        else:
+            return (c1.index(a) - c2.index(b)) % 26
+    else:
+        if b in c1:
+            return (c2.index(a) - c1.index(b)) % 26
+        else:
+            return (c2.index(a) - c2.index(b)) % 26
 
-    if(a in c1):
-        return c1[(c1.index(a)+n)%26]
-    if(a in c2):
-        return c2[(c2.index(a)+n)%26] 
+
+def evaluator(tp, shift):
+    if tp in c1:
+        return c1[(shift - 1) % 26]
+    else:
+        return c2[(shift - 1) % 26]
 
 
-def simple_encode(s):
-    x = s[0]
-    for i in range(len(s)-1):
-        x += rot(s[i],n(s[i+1]))
-    x += s[-1]
-    return x
-f = simple_encode(z)
-print('Encoded String: ')
-print(f)
-print()
-print('Observation to be made')
-# What they are supposed to print out to see the pattern
-for i in range(len(f)):
-    try:
-        print(n(z[i]),ord(f[i])-ord(z[i]))
-    except:
-        print(" ",ord(f[i])-64)
+flag = "Gibberish"
+q = "c"
+
+c1 = "abcdefghijklmnopqrstuvwxyz"
+c2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+for i in range(len(flag) - 2):
+    q += evaluator(flag[i + 1], diff(flag[i + 1], flag[i]))
+
+q += flag[-1]
+print(q)
+# This is the encrypted flag
+

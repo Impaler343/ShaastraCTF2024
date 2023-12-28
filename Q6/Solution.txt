@@ -1,0 +1,2 @@
+We first search for the person's name  on linkedIn and find his birthday which is the second part of the flag, after which we go to his place of work.
+In the facebook page of his place of work we find a comment which is the first part of the flag
