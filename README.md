@@ -71,6 +71,13 @@ Logic: Gottfried discovered binary. In the question, the repeated use of two ins
 Difficulty : 6 <br />
 Clue: There are Two Types of leTTers in This senTence <br />
 
+## Q11
+Q11: 
+Name: Going low 
+There is an assembly file which participants must download . Inside there is a line to give a particular number as input . And there is another target line , I.e if the code reaches the target line , the input number given is the solution. Op1 calculates (a+b)%256 , where a is n^n and b is n! Without any prime factors of 2. Op2 is a complex way to check if result of op1 is 1 . Can be solved mathematically.
+Ideal solution is to modify code to cycle through all possible inputs and find the answer on its own . 
+Difficulty : 9
+Clue: Who knows what op1 does
 
 ## Q12
 Name: Cold & Hot
