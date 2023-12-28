@@ -31,9 +31,9 @@ Clue: Every recursive function has an equivalent iterative form <br />
 
 ## Q5
 Name: Got me flipping ones and zeros
-Logic: The flag is converted to ASCII numbers in binary form . This binary form is complemented and converted back to numbers and placed in a txt file. This is basically the same as 127-ASCII value
-Difficulty: 2
-Clue: No clue 
+Logic: The flag is converted to ASCII numbers in binary form . This binary form is complemented and converted back to numbers and placed in a txt file. This is basically the same as 127-ASCII value<br />
+Difficulty: 2<br />
+Clue: No clue <br />
 
 
 ## Q6
@@ -75,12 +75,12 @@ Clue: There are Two Types of leTTers in This senTence <br />
 Q11: 
 Name: Going low 
 There is an assembly file which participants must download . Inside there is a line to give a particular number as input . And there is another target line , I.e if the code reaches the target line , the input number given is the solution. Op1 calculates (a+b)%256 , where a is n^n and b is n! Without any prime factors of 2. Op2 is a complex way to check if result of op1 is 1 . Can be solved mathematically.
-Ideal solution is to modify code to cycle through all possible inputs and find the answer on its own . 
-Difficulty : 9
-Clue: Who knows what op1 does
+Ideal solution is to modify code to cycle through all possible inputs and find the answer on its own . <br />
+Difficulty : 9<br />
+Clue: Who knows what op1 does<br />
 
 ## Q12
 Name: Cold & Hot
-Logic: Interactive a.exe is given . Players have to guess the number to get the password. The program returns hot and cold opposite to the normal conventions , i.e cold means you are close and hot means you are far from the right answer.
-Difficulty : 4
-Clue: The convention has been flipped , just like the name!
+Logic: Interactive a.exe is given . Players have to guess the number to get the password. The program returns hot and cold opposite to the normal conventions , i.e cold means you are close and hot means you are far from the right answer.<br />
+Difficulty : 4<br />
+Clue: The convention has been flipped , just like the name!<br />
