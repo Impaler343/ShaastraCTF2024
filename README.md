@@ -30,10 +30,10 @@ Clue: Every recursive function has an equivalent iterative form <br />
 
 
 ## Q5
-Name: Maze Runner
-Logic: You are thrown inside a labyrinth of recursively linked directories, users need to navigate through it to find the text file with the flag. Each file will contain folders names a , c , f , h , r, s, t , and right answer will come from going to the file by following the order s-> h -> a -> a -> s -> t -> r -> a . We will let them know that shortest path is 7 directories 
-Difficulty: 5
-Clue: We will tell them to use rm -r on some files at the highest level which will simplify the challenge
+Name: Got me flipping ones and zeros
+Logic: The flag is converted to ASCII numbers in binary form . This binary form is complemented and converted back to numbers and placed in a txt file. This is basically the same as 127-ASCII value
+Difficulty: 2
+Clue: No clue 
 
 
 ## Q6
