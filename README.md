@@ -2,9 +2,9 @@
 CTF Questions for Shaastra 2024
 
 ## Q1
-Name: Simply Encoded  
+Name: Simply Encoded  <br />
 Logic: convolutional encoding, of order 1 . I.e we shift the string by 1 unit and then sum it up with the original string to generate an encoding with 1 more letter than the original. <br />
-Difficulty : 6 <br />
+Difficulty : 5 <br />
 Clue: Have you heard of convolution? <br />
 
 
@@ -25,12 +25,12 @@ Clue: Images have X and Y axes. Does this file have a Z-axis too? <br />
 ## Q4
 Name : Name(A Recursion Reference) <br />
 Logic: A recursive algorithm is written which does not function like normal recursive functions. Long story short, an equivalent iterative loop must be figured out and used to generate fibbmod(250) <br />
-Difficulty : 9 <br />
+Difficulty : 8 <br />
 Clue: Every recursive function has an equivalent iterative form <br />
 
 
 ## Q5
-Name: Got me flipping ones and zeros
+Name: Got me flipping ones and zeros<br />
 Logic: The flag is converted to ASCII numbers in binary form . This binary form is complemented and converted back to numbers and placed in a txt file. This is basically the same as 127-ASCII value<br />
 Difficulty: 2<br />
 Clue: No clue <br />
@@ -73,10 +73,10 @@ Clue: There are Two Types of leTTers in This senTence <br />
 
 ## Q11
 Q11: 
-Name: Going low 
+Name: Going low <br />
 There is an assembly file which participants must download . Inside there is a line to give a particular number as input . And there is another target line , I.e if the code reaches the target line , the input number given is the solution. Op1 calculates (a+b)%256 , where a is n^n and b is n! Without any prime factors of 2. Op2 is a complex way to check if result of op1 is 1 . Can be solved mathematically.
 Ideal solution is to modify code to cycle through all possible inputs and find the answer on its own . <br />
-Difficulty : 9<br />
+Difficulty : 8<br />
 Clue: Who knows what op1 does<br />
 
 ## Q12
@@ -84,3 +84,17 @@ Name: Cold & Hot
 Logic: Interactive a.exe is given . Players have to guess the number to get the password. The program returns hot and cold opposite to the normal conventions , i.e cold means you are close and hot means you are far from the right answer.<br />
 Difficulty : 4<br />
 Clue: The convention has been flipped , just like the name!<br />
+
+
+
+
+Difficulty chart:
+2: 1
+3: 0
+4: 1
+5: 2
+6: 3
+7: 1
+8: 3
+9: 1
+10: 
