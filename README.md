@@ -70,3 +70,10 @@ Logic: Gottfried discovered binary. In the question, the repeated use of two ins
  <br />
 Difficulty : 6 <br />
 Clue: There are Two Types of leTTers in This senTence <br />
+
+
+## Q12
+Name: Cold & Hot
+Logic: Interactive a.exe is given . Players have to guess the number to get the password. The program returns hot and cold opposite to the normal conventions , i.e cold means you are close and hot means you are far from the right answer.
+Difficulty : 4
+Clue: The convention has been flipped , just like the name!
