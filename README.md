@@ -30,8 +30,8 @@ Clue: Every recursive function has an equivalent iterative form <br />
 
 
 ## Q5
-Name: Got me flipping ones and zeros <br />
-Logic: The flag is converted to ASCII numbers in binary form. This binary form is complemented and converted back to numbers and placed in a TXT file. This is the same as the 127-ASCII value <br />
+Name: The Flip Side of Binary <br />
+Logic: The flag is converted to ASCII numbers in binary form. This binary form is 1's complemented and converted back to numbers and placed in a TXT file. This is the same as the 127-ASCII value <br />
 Difficulty: 2  <br />
 Clue: No clue <br />
 
