@@ -29,7 +29,7 @@ original_code = readf("Q5/decoded.txt")
 res = ""
 for i in original_code:
     res += str(flip(ord(i))) + ' '
-res = res[:-1]
+
 print(res)
 writef('Q5/file.txt',res)
 
