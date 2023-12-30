@@ -85,7 +85,12 @@ Logic: Interactive a.exe is given. Players have to guess the number to get the p
 Difficulty : 4 <br />
 Clue: The convention has been flipped, just like the name! <br />
 
+##Q13
+Name: RSA<br />
+While sleuthing around your network , you see that there is a transmission with RSA encryption. Knowing that its not possible to hack the RSA codes due to the extensive amount of computing power that you would require , something catches your eye , the public key , is only 64 bits long ! You quickly collect the encrypted message and get to work..... What is the decoded message:<br />
 
+Difficulty : 6<br />
+Clue: Not needed<br />
 
 
 Difficulty chart:
