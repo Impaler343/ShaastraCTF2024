@@ -66,7 +66,7 @@ Clue: Use the SSL key to decrypt packets through the TSL protocol. <br />
 
 ## Q10
 Name: Gottfried and Bob Bemer <br />
-Logic: Gottfried discovered binary. In the question, the repeated use of two instead of to and too also suggests usage of binary format. Replace uppercase letters by 1, lowercase letters by 0. Split at every 8th letter. Convert every 7 bits to decimal and replace these from ASCII values to characters. The flag is obtained from "iAmTWobOreDOffINdiNGfLaGsIwANTTWodOSoMEThINgMoreinTEresTinGWaItDiDyOUSEEtHatTwoNoyOUdIdNoTiJUSTFouNDtHEFlAGnOwiamgOIngTWoThENEXTqUestIOnyOucANalsoGOiFyouWishTWO"
+Logic: Gottfried discovered binary. In the question, the repeated use of two instead of to and too also suggests usage of binary format. Replace uppercase letters by 1, lowercase letters by 0. Split at every 7th letter. Convert every 7 bits to decimal and replace these from ASCII values to characters. The flag is obtained from "iAmTWobOreDOffINdiNGfLaGsIwANTTWodOSoMEThINgMoreinTEresTinGWaItDiDyOUSEEtHatTwoNoyOUdIdNoTiJUSTFouNDtHEFlAGnOwiamgOIngTWoThENEXTqUestIOnyOucANalsoGOiFyouWishTWO"
  <br />
 Difficulty : 6 <br />
 Clue: There are Two Types of leTTers in This senTence. <br />
@@ -88,7 +88,7 @@ Clue: The convention has been flipped, just like the name! <br />
 ## Q13
 Name: Event<br />
 
-Logic: The image canot be opened so use a hex editor to open it. In the character area, the first part of the flag is given at the end. Compare the magic bytes in the hexadecimal area with that of a jpg and correct it. Now the image can be opened directly and the 2nd part is displayed. The third part can be found by running an executable file by typing the event name, i.e "CTF" (case insensitive).
+Logic: The image cannot be opened so use a hex editor to open it. In the character area, the first part of the flag is given at the end. Compare the magic bytes in the hexadecimal area with that of a jpg and correct it. Now the image can be opened directly and the 2nd part is displayed. The third part can be found by running an executable file by typing the event name, i.e "CTF" (case insensitive).
 <br />
 Difficulty: 6<br />
 Clue: No Clue<br />

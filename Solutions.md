@@ -57,18 +57,20 @@ ShaastraCTF{f9ae830816482b79a8}
 <br />
 
 ## Q10 - Gottfried and Bob Bemer
-
+Replace uppercase letters by 1, lowercase letters by 0. Split at every 7th letter. Convert every 7 bits to decimal and replace these from ASCII values to characters
 <br />
 ShaastraCTF{Y35_7h15_I5_7h3_FL4G}
 <br />
 
 ## Q11 - Going Low
-
+Smart solution:- You will see that wrong solutions end up inside an infinite loop of op2. Modify the code to redirect itself to the starting instead of entering the infinite loop and perform op1 , with 
 <br />
 ShaastraCTF{132}
 <br />
 
-## Q12 - 
+## Q12 - Cold & Hot
 
+## Q13 - Event
+use a hex editor to open it. In the character area, the first part of the flag is given at the end. Compare the magic bytes in the hexadecimal area with that of a jpg and correct it. Now the image can be opened directly and the 2nd part is displayed. The third part can be found by running an executable file by typing the event name, i.e "CTF" (case insensitive).
 
-
+<br />
