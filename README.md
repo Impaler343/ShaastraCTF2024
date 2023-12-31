@@ -66,7 +66,7 @@ Clue: Use the SSL key to decrypt packets through the TSL protocol. <br />
 
 ## Q10
 Name: Gottfried and Bob Bemer <br />
-Logic: Gottfried discovered binary. In the question, the repeated use of two instead of to and too also suggests usage of binary format. Replace uppercase letters by 1, lowercase letters by 0. Split at every 8th letter. Convert every 8 bits to decimal and replace these from ASCII values to characters. The flag is obtained from "iAmTWobOreDOffINdiNGfLaGsIwANTTWodOSoMEThINgMoreinTEresTinGWaItDiDyOUSEEtHatTwoNoyOUdIdNoTiJUSTFouNDtHEFlAGnOwiamgOIngTWoThENEXTqUestIOnyOucANalsoGOiFyouWishTWO"
+Logic: Gottfried discovered binary. In the question, the repeated use of two instead of to and too also suggests usage of binary format. Replace uppercase letters by 1, lowercase letters by 0. Split at every 8th letter. Convert every 7 bits to decimal and replace these from ASCII values to characters. The flag is obtained from "iAmTWobOreDOffINdiNGfLaGsIwANTTWodOSoMEThINgMoreinTEresTinGWaItDiDyOUSEEtHatTwoNoyOUdIdNoTiJUSTFouNDtHEFlAGnOwiamgOIngTWoThENEXTqUestIOnyOucANalsoGOiFyouWishTWO"
  <br />
 Difficulty : 6 <br />
 Clue: There are Two Types of leTTers in This senTence. <br />

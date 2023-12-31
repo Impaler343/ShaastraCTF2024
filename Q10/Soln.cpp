@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    string s="iAmTWobOreDOffINdiNGfLaGsIwANTTWodOSoMEThINgMoreinTEresTinGWaItDiDyOUSEEtHatTwoNoyOUdIdNoTiJUSTFouNDtHEFlAGnOwiamgOIngTWoThENEXTqUestIOnyOucANalsoGOiFyouWishTWO";
+    string s="IaMBorEdOFfiNDiNGfLaGSiWANTTwODoSOMEthInginTEresTiNGwAiTDiDYOUSeEThatTwONoYoUDiDNOTIjUStFOUNdtHeflaGIamGOInGTWOTHeneXTqUesTIonyOUtWocAngoNOW";
     
     int k=s.size();
     string flag="";
-    for(int i=0; i<k; i+=8){
+    for(int i=0; i<k; i+=7){
         int ans=0;
-        for(int j=i; j<i+8; j++){
+        for(int j=i; j<i+7; j++){
             ans<<=1;
             if(s[j]>='A'&&s[j]<='Z') ans++;
         }
