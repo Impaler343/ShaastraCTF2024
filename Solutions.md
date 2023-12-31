@@ -63,14 +63,25 @@ ShaastraCTF{Y35_7h15_I5_7h3_FL4G}
 <br />
 
 ## Q11 - Going Low
-Smart solution:- You will see that wrong solutions end up inside an infinite loop of op2. Modify the code to redirect itself to the starting instead of entering the infinite loop and perform op1 , with 
+Smart solution:- You will see that wrong solutions end up inside an infinite loop of op2. Modify the code to redirect itself to the main function instead of entering the infinite loop and try to parse through the program again , adfter increasing the trial value by 1 . Now the code will cycle until it reaches the end function , and we can see the latest value there.
+
+Long Solution:- Take lite
 <br />
 ShaastraCTF{132}
 <br />
 
 ## Q12 - Cold & Hot
+Opposite to the Hot and Cold game , if burning is returned you are very far from the right answer , and freezing means you are close. Keep in mind Negative numbers are also integers.  
+<br />
+ShaastraCTF{dLkDF@^HgsGRus63EsT&}
+<br />
 
 ## Q13 - Event
 use a hex editor to open it. In the character area, the first part of the flag is given at the end. Compare the magic bytes in the hexadecimal area with that of a jpg and correct it. Now the image can be opened directly and the 2nd part is displayed. The third part can be found by running an executable file by typing the event name, i.e "CTF" (case insensitive).
+
+<br />
+
+## Q14 - RSA
+Since the RSA encoding is only 24 bits , we can compute the 2 prime factors of the public key with some simple python code , which will turn out to be 3623 and 3631 in this case. Using this we can compute the private key which will turn out to be 7513063. Now , decrypt the message recieved using the private key , and then convert the numbers to their respective ASCII values to obtain the flag. 
 
 <br />
