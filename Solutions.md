@@ -56,7 +56,19 @@ Right-click on the packet select "Decode As" --> "base64" and view it as "raw".
 ShaastraCTF{f9ae830816482b79a8}
 <br />
 
-## Q10
+## Q10 - Gottfried and Bob Bemer
+
+<br />
+ShaastraCTF{Y35_7h15_I5_7h3_FL4G}
+<br />
+
+## Q11 - Going Low
+
+<br />
+ShaastraCTF{132}
+<br />
+
+## Q12 - 
 
 
 
