@@ -65,6 +65,8 @@ def decrypt2(val,n,d):
 			x *= val
 		x = x%n
 	return x
+
+
 decrypted = ""
 a = []
 for i in encrypted:

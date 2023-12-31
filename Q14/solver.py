@@ -26,23 +26,38 @@ def SieveOfEratosthenes(n):
 			res.append(p)
 	return res
 primes = SieveOfEratosthenes(4096)
-def private_from_public(n):
+
+def private(phi,e):
+	k = 2
+	d = (1 + (k*phi))/e
+	while(d%1 != 0):
+		k += 1
+		d = (1 + (k*phi))/e
+	return d
+def private_from_public(n,e):
 	global primes
-	p=q = n**0
-	i = 0
-	j = len(primes)-1
-	while(p < primes[i]):
-		i += 1
-	p = primes[i-1]
-	while(q > primes[j]):
-		j -= 1
-	q = primes[j+1]
-	while(p*q != n):
-		if(p*q < n):
-			i -= 1
-		elif(p*q>n):
-			j += 1
-		p = primes[i]
-		q = primes[j]
-	return (p,q)
-print(private_from_public(13155113))
+	for i in primes:
+		for j in primes:
+			if(i*j == n):
+				return private((i-1)*(j-1),e)
+	else:
+		return 0,0
+	
+public_key = 13155113
+e = 7
+private_key = private_from_public(public_key,e)
+print(private_key)
+
+def decrypt2(val,n,d):
+	x = val
+	while(d > 1):
+		while(x<n and d > 1):
+			d -= 1
+			x *= val
+		x = x%n
+	return x
+a = [12771052, 4182436, 1395729, 1395729, 12263850, 12071013, 1805872, 1395729, 6339980, 11378664, 384175, 4328101, 2575158, 12771052, 1341401, 9575570, 6872313, 12263850, 9575570, 8861238, 1395729, 12263850, 2652071, 1774694]
+flag = ""
+for i in a:
+	flag += chr(decrypt2(i,public_key,private_key))
+print(flag)

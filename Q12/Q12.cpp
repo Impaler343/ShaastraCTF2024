@@ -10,7 +10,7 @@ string s;
 bool check_number(string str){
     int x = 0;
     if(str[0] == '-')x = 1;
-    if(str.size() > 10+x) return false;
+    if(str.size() > 10+x || str.size() == 0) return false;
    for (int i = x; i < str.length(); i++){
    if(isdigit(str[i]) == false)
       return false;
@@ -34,7 +34,7 @@ string response(int val){
 int main(){
     while(stoi(val) != ans){
     cout <<"Enter guess\n";
-    cin >> val;
+    getline(cin,val);
     if(check_number(val)){
     cout << response(stoi(val)) << "\n";
     }
