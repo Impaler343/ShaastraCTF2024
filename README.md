@@ -80,20 +80,31 @@ Difficulty : 8 <br />
 Clue: Who knows what op1 does<br />
 
 ## Q12
-Name: Cold & Hot
+Name: Cold & Hot<br />
 Logic: Interactive a.exe is given. Players have to guess the number to get the password. The program returns hot and cold opposite to the normal conventions, i.e cold means you are close and hot means you are far from the right answer.<br />
 Difficulty : 4 <br />
 Clue: The convention has been flipped, just like the name! <br />
 
-##Q13
+## Q13
+Name: Event<br />
+
+Logic: The image canot be opened so use a hex editor to open it. In the character area, the first part of the flag is given at the end. Compare the magic bytes in the hexadecimal area with that of a jpg and correct it. Now the image can be opened directly and the 2nd part is displayed. The third part can be found by running an executable file by typing the event name, i.e "CTF" (case insensitive).
+<br />
+Difficulty: 6<br />
+Clue: No Clue<br />
+
+## Q14
 Name: RSA<br />
-While sleuthing around your network , you see that there is a transmission with RSA encryption. Knowing that its not possible to hack the RSA codes due to the extensive amount of computing power that you would require , something catches your eye , the public key , is only 64 bits long ! You quickly collect the encrypted message and get to work..... What is the decoded message:<br />
+While sleuthing around your network , you see that there is a transmission with RSA encryption. Knowing that its not possible to hack the RSA codes due to the extensive amount of computing power that you would require , you were about to move on ,but something catches your eye , the public key , is only 64 bits long ! You quickly collect the encrypted message and get to work..... What is the decoded message:<br />
 
 Difficulty : 6<br />
 Clue: Not needed<br />
 
-
-Difficulty chart:
+## Q15
+Name: Hashy Hashing <br />
+Logic: We give the participants the following statement: "After hacking into xyz's database, you now have access to all the password stored, but they are in their encrypted form. Some quick Data analysis shows that the most commonly encrypted password over there is ********(Replace this with the encrypted form form of 123456 , as this is the most commonly used password in the world). You want to hack into IITM's account , and their encrypted password is _______(Replace with encrypted flag) , can you figure out the decrypted password ?  <br />
+Difficulty : 7<br />
+Clue: The password has been hashed twice<br />
 1: 0 <br />
 2: 1 <br />
 3: 0 <br />
