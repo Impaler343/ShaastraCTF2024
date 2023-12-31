@@ -97,7 +97,7 @@ Clue: No Clue<br />
 Name: RSA<br />
 While sleuthing around your network , you see that there is a transmission with RSA encryption. Knowing that its not possible to hack the RSA codes due to the extensive amount of computing power that you would require , you were about to move on ,but something catches your eye , the public key , is only 24 bits long ! You quickly collect the encrypted message and get to work..... What is the decoded message:<br />
 
-Difficulty : 6<br />
+Difficulty : 5<br />
 Clue: Not needed<br />
 
 ## Q15
@@ -109,8 +109,8 @@ Clue: The password has been hashed twice<br />
 2: 1 <br />
 3: 0 <br />
 4: 1 <br />
-5: 1 <br />
-6: 7 <br />
+5: 2 <br />
+6: 6 <br />
 7: 1 <br />
 8: 3 <br />
 9: 0 <br />

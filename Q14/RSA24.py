@@ -54,7 +54,7 @@ encrypted = []
 for i in msg:
 	encrypted.append(RSA(ord(i),n,e))
 print("Encrypted data = ", encrypted)
-print("public key :",n)
+print("public key :",n,e)
 print("private key :", d)
 
 def decrypt2(val,n,d):
