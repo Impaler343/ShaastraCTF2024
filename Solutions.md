@@ -23,5 +23,5 @@ We need to Google Search the image to find the author of the article whose page 
 <br />
 
 ## Q7
-
+We need to 
 
