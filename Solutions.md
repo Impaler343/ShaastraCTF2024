@@ -11,3 +11,17 @@ This question involves finding the hidden .zip file using binwalk, and then unzi
 <br />
 
 ## Q4
+We need to find the iterative solution to this recursive code which is a little complicated. After that, you will be able to find the value of fibbmod(250)
+<br />
+
+## Q5
+We need to convert all the numbers to binary, flip all the bits, convert back to decimal and finally back to ASCII, to give the flag.
+<br />
+
+## Q6
+We need to Google Search the image to find the author of the article whose page has the image, after which you need to go to the FaceBook page of the current Workplace of the author, where the flag can be found in one of the comments.
+<br />
+
+## Q7
+
+
