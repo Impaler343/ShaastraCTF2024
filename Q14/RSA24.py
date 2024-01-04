@@ -14,8 +14,8 @@ def gcd(a, h):
 		h = temp
 
 
-p = 3623
-q = 3631
+p = 3847
+q = 3779
 n = p*q
 e = 2
 phi = (p-1)*(q-1)
@@ -47,7 +47,7 @@ def RSA(val,n,e):
 	return c
 
 # Message to be encrypted
-msg = "ShaastraCTF{}"
+msg = "ShaastraCTF{RSA24Cracked}"
 #msg = "hi"
 print("Message data = ", msg)
 encrypted = []
