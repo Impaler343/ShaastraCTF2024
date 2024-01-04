@@ -1,2 +1,2 @@
 We first search for the person's name  on linkedIn and we go to his place of work.
-In the facebook page of his place of work we find a comment which is the first part of the flag
+In the facebook page of his place of work we find a comment which is the flag
