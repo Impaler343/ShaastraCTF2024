@@ -16,37 +16,37 @@ This question involves finding the hidden .zip file using binwalk, and then unzi
 ShaastraCTF{Th3_4n5w3r_15_4n_1nt3g3r}
 <br />
 
-## Q4 - Name(Recursion, get it?)
+## Q4 - Iterant
 We need to find the iterative solution to this recursive code which is a little complicated. After that, you will be able to find the value of fibbmod(250)
 <br />
 ShaastraCTF{4611686018427387904}
 <br />
 
-## Q5 - The Flip Side of Binary
+## Q5 - Twofold flipping
 We need to convert all the numbers to binary, flip all the bits, convert back to decimal and finally back to ASCII, to give the flag.
 <br />
 ShaastraCTF{Bit_0f_0bfusc4t10n_4nd_0bstruc710n}
 <br />
 
-## Q6 - Corporate Trails
+## Q6 - Animal Prints
 We need to Google Search the image to find the author of the article whose page has the image, after which you need to go to the FaceBook page of the current Workplace of the author, where the flag can be found in one of the comments.
 <br />
 ShaastraCTF{W3lc0m3_t0_7h3_w0rld_0f_CTFs}
 <br />
 
-## Q7 - Acropolis
-We need to scramble the letters of the word Athens to form hasten, we then need to hash it using sha-224 and submit the flag.
+## Q7 - Cryptic Locations
+We need to scramble the letters of the word athens to form hasten, we then need to hash it using sha-224 and submit the flag.
 <br />
 ShaastraCTF{dc021713e546210aa2f97ffe025fbf9c2ef5812c97735314dba280f8}
 <br />
 
-## Q8 - Decoding Digits
+## Q8 - About Time
 We need to observe that each correct letter of the 6-digit letter password makes the program run slower, hence they will try all the possibilities to find the one that takes the most time to run.
 <br />
 ShaastraCTF{835789}
 <br />
 
-## Q9 - SSL Buster
+## Q9 - Snooping
 Go to the file comments to retrieve the SSL Key.
 Add the SSL key to a text file on the system.
 Use this file in the Wireshark SSL preferences, to decrypt TSL traffic.
