@@ -30,7 +30,7 @@ def hide_base36_text_in_image(image_path, hidden_text, output_path):
 
 if __name__ == "__main__":
     # Replace these paths and hidden text with your actual values
-    image_path = "BaseJumping.jpg"
+    image_path = "Everest.jpg"
     hidden_text = "ShaastraCTF{C0m3_W3st1n}"
     output_path = "output_image_with_hidden_text.jpg"
 

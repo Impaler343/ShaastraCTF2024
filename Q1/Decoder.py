@@ -32,7 +32,7 @@ def evaluator(tp, shift):
 
 
 flag = "cRyPtOgRaPhYisAmAzInG"
-q = "c"
+q = "c" #Flag[0]
 
 c1 = "abcdefghijklmnopqrstuvwxyz"
 c2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
