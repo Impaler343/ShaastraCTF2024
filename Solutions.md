@@ -1,23 +1,27 @@
 ## Q1 - Laplace, Fourier and CNN
 Convolutional encoding of order 1 needs to be done to decrypt the string. I.e we need to shift the string by 1 unit and then sum it up with the original string to generate an encoding with 1 more letter than the original. 
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q1/Decoder.py
 <br />
 ShaastraCTF{cRyPtOgRaPhYisAmAzInG}
 <br />
 
 ## Q2 - Everest Base Camp
 The image consists of the flag code written such that its representation in base 36 is the solution.
+SOlution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q2/BaseJumpingSolutionCode.py
 <br />
 ShaastraCTF{C0m3_W3st1n}
 <br />
 
 ## Q3 - Binary Dumpland
 This question involves finding the hidden .zip file using binwalk, and then unzip this file 1000 times using a bash script to discover the .txt file that has the flag.
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q2/BaseJumpingSolutionCode.py
 <br />
 ShaastraCTF{Th3_4n5w3r_15_4n_1nt3g3r}
 <br />
 
 ## Q4 - Iterant
 We need to find the iterative solution to this recursive code which is a little complicated. After that, you will be able to find the value of fibbmod(250)
+
 <br />
 ShaastraCTF{4611686018427387904}
 <br />
