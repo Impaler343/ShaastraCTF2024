@@ -76,20 +76,22 @@ ShaastraCTF{Y35_7H15_15_7H3_FL4G}
 
 ## Q11 - OperationPWN
 Smart solution:- You will see that wrong solutions end up inside an infinite loop of op2. Modify the code to redirect itself to the main function instead of entering the infinite loop and try to parse through the program again, after increasing the trial value by 1. The code will cycle until it reaches the end function, and we can see the latest value there.
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q11/solution.asm
 
-Long Solution:- Take lite
 <br />
 ShaastraCTF{132}
 <br />
 
 ## Q12 - Freezing Fire
-Opposite to the Hot and Cold game, if burning is returned you are very far from the right answer, and freezing means you are close. Keep in mind Negative numbers are also integers.  
+Opposite to the Hot and Cold game, if burning is returned you are very far from the right answer, and freezing means you are close. Keep in mind Negative numbers are also integers.
+
 <br />
 ShaastraCTF{dLkDF@^HgsGRus63EsT&}
 <br />
 
 ## Q13 - Contest
 Use a hex editor to open it. In the character area, the first part of the flag is given at the end. Compare the magic bytes in the hexadecimal area with that of a jpg and correct it. Now the image can be opened directly and the 2nd part is displayed. The third part can be found by running an executable file by typing the event name, i.e "CTF" (case insensitive).
+
 
 <br />
 ShaastraCTF{H4pPy_n3W_Y34R!}
@@ -99,6 +101,7 @@ ShaastraCTF{H4pPy_n3W_Y34R!!}
 
 ## Q14 - Prime Decryption
 Since the RSA encoding is only 24 bits, we can compute the 2 prime factors of the public key with some simple Python code, which will turn out to be 3847 and 3779 in this case. Using this we can compute the private key which will turn out to be 14537813, 5. Now, decrypt the message received using the private key, and then convert the numbers to their respective ASCII values to obtain the flag. 
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q14/solver.py
 
 <br />
 ShaastraCTF{RSA24Cracked}
@@ -106,6 +109,7 @@ ShaastraCTF{RSA24Cracked}
 
 ## Q15 - Musical Math
 The image has three time signatures which are written as 5, 4, 4, 4, 2, 4. We need to input characters whose ASCII value will reduce to those numbers by Collatzing 96 times. There are multiple answers to this one which gives us the flag.
+
 <br />
 ShaastraCTF{Musical_Collatz_Conjecture}
 <br />
