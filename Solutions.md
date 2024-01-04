@@ -1,19 +1,19 @@
-## Q1 - Simply Encoded
+## Q1 - Laplace, Fourier and CNN
 Convolutional encoding of order 1 needs to be done to decrypt the string. I.e we need to shift the string by 1 unit and then sum it up with the original string to generate an encoding with 1 more letter than the original. 
 <br />
 ShaastraCTF{cRyPtOgRaPhYisAmAzInG}
 <br />
 
-## Q2 - Base Jumping
+## Q2 - Everest Base Camp
 The image consists of the flag code written such that its representation in base 36 is the solution.
 <br />
 ShaastraCTF{C0m3_W3st1n}
 <br />
 
-## Q3 - Deep Dive Discovery
+## Q3 - Binary Dumpland
 This question involves finding the hidden .zip file using binwalk, and then unzip this file 1000 times using a bash script to discover the .txt file that has the flag.
 <br />
-ShaastraCTF{1t5_4ll_4b0ut_7h3_4lph4b3t}
+ShaastraCTF{Th3_4n5w3r_15_4n_1nt3g3r}
 <br />
 
 ## Q4 - Name(Recursion, get it?)
@@ -85,3 +85,5 @@ use a hex editor to open it. In the character area, the first part of the flag i
 Since the RSA encoding is only 24 bits , we can compute the 2 prime factors of the public key with some simple python code , which will turn out to be 3623 and 3631 in this case. Using this we can compute the private key which will turn out to be 7513063. Now , decrypt the message recieved using the private key , and then convert the numbers to their respective ASCII values to obtain the flag. 
 
 <br />
+
+## Q15 - About Time
