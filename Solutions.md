@@ -21,19 +21,21 @@ ShaastraCTF{Th3_4n5w3r_15_4n_1nt3g3r}
 
 ## Q4 - Iterant
 We need to find the iterative solution to this recursive code which is a little complicated. After that, you will be able to find the value of fibbmod(250)
-
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q4/iterative.cpp
 <br />
 ShaastraCTF{4611686018427387904}
 <br />
 
 ## Q5 - Twofold flipping
 We need to convert all the numbers to binary, flip all the bits, convert back to decimal and finally back to ASCII, to give the flag.
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q5/encoder-decoder.py
 <br />
 ShaastraCTF{Bit_0f_0bfusc4t10n_4nd_0bstruc710n}
 <br />
 
 ## Q6 - Animal Prints
 We need to Google Search the image to find the author of the article whose page has the image, after which you need to go to the FaceBook page of the current Workplace of the author, where the flag can be found in one of the comments.
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q6/Solution.txt
 <br />
 ShaastraCTF{W3lc0m3_t0_7h3_w0rld_0f_CTFs}
 <br />
@@ -43,11 +45,15 @@ We need to scramble the letters of the word athens to form hasten, we then need 
 <br />
 ShaastraCTF{dc021713e546210aa2f97ffe025fbf9c2ef5812c97735314dba280f8}
 <br />
+Solution:
+<br />
 
 ## Q8 - About Time
 We need to observe that each correct letter of the 6-digit letter password makes the program run slower, hence they will try all the possibilities to find the one that takes the most time to run.
 <br />
 ShaastraCTF{835789}
+<br />
+Solution: 
 <br />
 
 ## Q9 - Snooping
@@ -59,14 +65,16 @@ Right-click on the packet select "Decode As" --> "base64" and view it as "raw".
 <br />
 ShaastraCTF{f9ae830816482b79a8}
 <br />
+Solution: 
 
 ## Q10 - CryptoGods
 Replace uppercase letters by 1, and lowercase letters by 0. Split at every 7th letter. Convert every 7 bits to decimal and replace these from ASCII values with characters
+Solution: https://github.com/Impaler343/ShaastraCTF2024/blob/main/Q10/Soln.cpp
 <br />
 ShaastraCTF{Y35_7H15_15_7H3_FL4G}
 <br />
 
-## Q11 - Going Low
+## Q11 - OperationPWN
 Smart solution:- You will see that wrong solutions end up inside an infinite loop of op2. Modify the code to redirect itself to the main function instead of entering the infinite loop and try to parse through the program again, after increasing the trial value by 1. The code will cycle until it reaches the end function, and we can see the latest value there.
 
 Long Solution:- Take lite
