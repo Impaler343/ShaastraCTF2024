@@ -2,14 +2,14 @@
 CTF Questions for Shaastra 2024
 
 ## Q1
-Name: Simply Encoded  <br />
+Name: Fourier, Laplace and CNN  <br />
 Logic: convolutional encoding, of order 1 . I.e we shift the string by 1 unit and then sum it up with the original string to generate an encoding with 1 more letter than the original. <br />
 Difficulty : 6 <br />
 Clue: Have you heard of convolution? <br />
 
 
 ## Q2
-Name: Base Jumping <br />
+Name: Everest Base Camp<br />
 Logic: A random noisy image, wherein the base 36 encodings will contain the password <br />
 Difficulty : 6 <br />
 Clue: You have heard of bases 2, 8,10, and 16... how far do you think we jumped? <br />
@@ -101,7 +101,7 @@ Difficulty : 5<br />
 Clue: Not needed<br />
 
 ## Q15
-Name: Hashy Hashing <br />
+Name: Musical Math <br />
 Logic: We give the participants the following statement: "After hacking into xyz's database, you now have access to all the password stored, but they are in their encrypted form. Some quick Data analysis shows that the most commonly encrypted password over there is ********(Replace this with the encrypted form form of 123456 , as this is the most commonly used password in the world). You want to hack into IITM's account , and their encrypted password is _______(Replace with encrypted flag) , can you figure out the decrypted password ?  <br />
 Difficulty : 7<br />
 Clue: The password has been hashed twice<br />
