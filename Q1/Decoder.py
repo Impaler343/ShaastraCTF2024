@@ -32,7 +32,8 @@ def evaluator(tp, shift):
 
 
 flag = "cRyPtOgRaPhYisAmAzInG"
-q = "c" #Flag[0]
+flag = "oDkBfAsDmBtKueMyMlUzG"
+q = "c"  # Flag[0]
 
 c1 = "abcdefghijklmnopqrstuvwxyz"
 c2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -40,7 +41,7 @@ c2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 for i in range(len(flag) - 2):
     q += evaluator(flag[i + 1], diff(flag[i + 1], flag[i]))
 
-q+=flag[-1]
+q += flag[-1]
 print(q)
 
 
@@ -49,5 +50,5 @@ finder = q[0]
 for i in range(len(q) - 2):
     finder += evaluator(q[i + 1], add(q[i + 1], finder[i]))
 
-finder+=q[-1]
+finder += q[-1]
 print(finder)
